@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3 Pemrograman Web</title>
+    <link rel="stylesheet" href="tugas3PW.css">
+</head>
+<body>
+    <div class="container">
+
+    <!-- Judul -->
+    <h1 id="judul" title="Halaman Profil">Profil Pribadi Saya</h1>
+
+    <!-- Profil -->
+    <div class="card">
+        <h2>Informasi Dasar</h2>
+        <p class="paragraf">Nama Lengkap: Fahril Ananda</p>
+        <p class="paragraf">NIM: 246250056</p>
+        <p class="paragraf">Hobi: Ngoding, Game, Olahraga</p>
+    </div>
+
+    <!-- Gambar -->
+    <div class="card">
+        <h2>Foto Profil</h2>
+        <img src="1.png" alt="Foto Profil Saya" width="300" height="300">
+    </div>
+
+    <!-- Biodata -->
+    <div class="card">
+        <h2>Biodata</h2>
+        <table id="tabel-biodata">
+            <tr>
+                <th>Nama</th>
+                <td>Fahril Ananda</td>
+            </tr>
+            <tr>
+                <th>Tanggal Lahir</th>
+                <td>03 Desember 2005</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Jalan Umar Syarif, Palu</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>anggarafahril67@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <td>@__fahrianggara</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- List -->
+    <div class="card">
+        <h2>Hobi & Aktivitas</h2>
+
+        <p>Unordered List:</p>
+        <ul class="list-hobi">
+            <li>Ngoding</li>
+            <li>Main Game</li>
+            <li>Olahraga</li>
+        </ul>
+
+        <p>Ordered List:</p>
+        <ol class="list-hobi">
+            <li>Belajar</li>
+            <li>Mengerjakan Tugas</li>
+            <li>Istirahat</li>
+        </ol>
+    </div>
+
+    <!-- Form -->
+    <div class="card">
+        <h2>Form Input</h2>
+
+        <form id="form-profil">
+            <label>Nama:</label>
+            <input type="text" name="nama">
+
+            <label>Email:</label>
+            <input type="email" name="email">
+
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" name="jk"> Laki-laki
+            <input type="radio" name="jk"> Perempuan
+            <br><br>
+
+            <label>Hobi:</label><br>
+            <input type="checkbox"> Ngoding
+            <input type="checkbox"> Game
+            <input type="checkbox"> Olahraga
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
